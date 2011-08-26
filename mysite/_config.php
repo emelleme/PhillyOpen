@@ -4,6 +4,9 @@ include(BASE_PATH.DIRECTORY_SEPARATOR."mysite".DIRECTORY_SEPARATOR."database_inf
 global $project;
 $project = 'mysite';
 
+global $browser;
+$browser = new Browser();
+
 
 MySQLDatabase::set_connection_charset('utf8');
 
